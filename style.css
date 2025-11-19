@@ -8,12 +8,22 @@ body{
 .topnav{
     display: flex;
     justify-content: space-between;
+    margin: 10px;
+    background-color: orange;
+    gap: 300px;
+    border: 3px solid black;
+    border-radius: 10px;
 }
 
 .topnav-right{
+    display: flex;
     align-items: center;
-    background-color: orange;
-    margin: 10px;
+    gap: 10px;
+}
+
+.topnav-left{
+    display: flex;
+    align-items: center;
 
 }
 
