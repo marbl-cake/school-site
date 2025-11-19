@@ -2,4 +2,25 @@ body{
     font-family: 'JetBrainsMonoNerd', monospace;
     background-color: white;
     color: black;
+    margin: 0px;
+}
+
+.topnav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.topnav-right{
+    align-items: center;
+    background-color: orange;
+    margin: 10px;
+
+}
+
+#logo{
+    width: 70px;
+    height: 70px;
+    border: 3px solid black;
+    border-radius: 90px;
+
 }
