@@ -10,16 +10,38 @@
 
   <body>
     <nav class="topnav">
-      <div class="topnav-right">
+      <div class="topnav-left">
         <img src="images/logo.png" alt="" id="logo">
 
         <h1>Cartesio Newspaper</h1>
       </div>
-      <div class="topnav-left">
-        <span>Cerca</span>
+      <div class="topnav-right">
+
+        <button id="search-btn" onclick="search()">🔍 Cerca</button>
+        <input type="text" id="search-bar" placeholder="Cerca..." />
       </div>
     </nav>
-     <script src="script.js"></script> 
+
+    <div class="middle-menu">
+      <div class="box">
+        <h2>Articolo 1</h2>
+        <img src="images/blub.png" alt="">
+        <span>Questo articolo è bello</span>
+      </div>
+
+      <div class="box">
+        <h2>Articolo 2</h2>
+        <img src="images/palla-verde.jpg" alt="">
+        <span>ciao2</span>
+      </div>
+
+      <div class="box">
+        <h2>Articolo 3</h2>
+        <img src="images/shrek.jpg" alt="">
+        <span>ciao3</span>
+      </div>
+    </div>
+    <script src="script.js"></script> 
   </body>
 
 </html>
