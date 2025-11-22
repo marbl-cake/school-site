@@ -134,11 +134,17 @@ body {
 
     border: 2px solid var(--on_primary);
     border-radius: 10px;
+    background-color: var(--inverse_primary);
+
     align-items: center;
     flex-direction: column;
     justify-content: center;
     text-align: center;
 
+    cursor: pointer;
+}
+.box:hover {
+    background-color: var(--primary_container);
 }
 
 .box img{
