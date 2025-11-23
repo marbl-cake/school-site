@@ -108,13 +108,14 @@ body {
 }
 
 #blogs-title {
-    display: block;
-    font-size: 20px;
-    background-color: var(--primary_container);
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    background-color: var(--tertiary);
     border: 2px solid var(--on_primary);
     border-radius: 5px;
     padding: 10px;
-    color: var(--primary);
+    color: var(--on_tertiary);
 }
 
 #blogs {
