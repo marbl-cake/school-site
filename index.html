@@ -21,9 +21,9 @@
         <div class="menu" id="menu">
           <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#">Articoli</a></li>
+            <li><a href="#">Scuola</a></li>
+            <li><a href="#">Chi siamo</a></li>
           </ul>
         </div>
 
@@ -40,30 +40,46 @@
 
     <div class="blogs-menu">
 
-      <strong><span id="blogs-title">Our Articles</span></strong>
-      <div id="blogs">
+      <strong><span class="blogs-title">I nostri articoli</span></strong>
+      <div class="blogs">
 
         <div class="box">
           <h2>Articolo 1</h2>
-          <img src="images/blub.png" alt="">
-          <span>Questo articolo è bello</span>
+          <img src="images/article1.jpg" alt="">
+          <span>Il tramonto dipingeva il cielo di colori caldi, tingendo le nuvole di arancio e rosa. Era un momento di quiete, dove anche il tempo sembrava fermarsi per ammirare la bellezza del mondo.</span>
         </div>
 
         <div class="box">
           <h2>Articolo 2</h2>
-          <img src="images/palla-verde.jpg" alt="">
-          <span>ciao2</span>
+          <img src="images/article2.jpg" alt="">
+          <span>Nel silenzio della montagna, il vento sussurrava tra gli alberi, portando con sé un profumo di resina e terra umida. Ogni respiro sembrava più profondo, come se l'aria fosse un invito alla calma.</span>
         </div>
 
         <div class="box">
           <h2>Articolo 3</h2>
-          <img src="images/shrek.jpg" alt="">
-          <span>ciao3</span>
+          <img src="images/article3.jpg" alt="">
+          <span>La pioggia scendeva leggera sulla città, creando riflessi lucenti sulle strade. Ogni goccia sembrava sussurrare storie di giorni passati, mentre i passanti si affrettavano sotto gli ombrelli.</span>
         </div>
 
       </div>
 
     </div>
+
+    <div class="blogs-menu">
+      <strong><span class="blogs-title">Cosa facciamo</span></strong>
+      <div class="carousel">
+        <div class="carousel-images">
+          <img src="images/article1.jpg" alt="Article 1">
+          <img src="images/article2.jpg" alt="Article 2">
+          <img src="images/article3.jpg" alt="Article 3">
+        </div>
+        <div class="carousel-buttons">
+          <button class="prev" onclick="moveSlide(-1)">❮</button>
+          <button class="next" onclick="moveSlide(1)">❯</button>
+        </div>
+      </div>
+    </div>
+
 
     <script src="script.js"></script> 
   </body>
