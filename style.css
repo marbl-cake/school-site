@@ -152,3 +152,67 @@ body {
     height: 60px;
     width: 60px;
 }
+
+/*  Hamburger   */
+
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+}
+
+
+.hamburger .line {
+  width: 100%;
+  height: 4px;
+  background-color: var(--inverse_primary);
+}
+
+.menu {
+    position: fixed;
+    top: 100px;
+    left: 0;
+    width: 100%;
+
+    background-color: #333;
+
+    max-height: 0;
+    overflow: hidden; 
+    transition: max-height 0.4s ease;
+
+    padding-top: 0;
+}
+
+.menu.active {
+    display: flex;
+    justify-content: center;
+    background-color: var(--on_primary_fixed);
+    
+
+    max-height: 100%;
+}
+
+
+.menu ul {
+  list-style: none;
+  padding: 20px 0;
+  margin: 0;
+  text-align: center;
+}
+
+.menu ul li {
+  padding: 15px;
+  border-bottom: 1px solid #444;
+}
+
+.menu ul li a {
+  color: var(--secondary);
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+}
+

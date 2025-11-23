@@ -7,3 +7,7 @@ function search(){
       bar.focus();  // mette il cursore nella barra
     }
 }
+
+function toggleMenu() {
+  document.getElementById("menu").classList.toggle("active");
+}
