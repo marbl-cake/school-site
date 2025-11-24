@@ -1,10 +1,9 @@
 
-
 /*
  *          ╭─────────────────────────────────────────────────────────╮
  *          │                         General                         │
  *          ╰─────────────────────────────────────────────────────────╯
-*/
+ */
 
 @import "colors.css";
 
@@ -23,7 +22,7 @@ span {
  *          ╭─────────────────────────────────────────────────────────╮
  *          │                         Topnav                          │
  *          ╰─────────────────────────────────────────────────────────╯
-*/
+ */
 
 .topnav {
     display: flex;
@@ -79,22 +78,22 @@ span {
 }
 
 #search-btn {
-  background-color: var(--on_primary_fixed_variant);
-  border: 2.5px var(--on_primary) solid ;
-  
-  padding: 8px 12px;
-  margin-right: 10px;
-  border-radius: 4px;
-  cursor: pointer;
+    background-color: var(--on_primary_fixed_variant);
+    border: 2.5px var(--on_primary) solid ;
 
-  color: white;
-  font-size: 14px;
-  font-weight: bold;
+    padding: 8px 12px;
+    margin-right: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
 
 }
 
 #search-btn:hover {
-  background-color: var(--on_primary_fixed);
+    background-color: var(--on_primary_fixed);
 }
 
 
@@ -102,7 +101,7 @@ span {
  *          ╭─────────────────────────────────────────────────────────╮
  *          │                        News Menu                        │
  *          ╰─────────────────────────────────────────────────────────╯
-*/
+ */
 
 .blogs-menu {
     background-color: var(--secondary);
@@ -165,23 +164,27 @@ span {
     transition: transform 0.3s ease-in-out;
 }
 
-/*  Hamburger   */
+/*
+ *          ╭─────────────────────────────────────────────────────────╮
+ *          │                        Hamburger                        │
+ *          ╰─────────────────────────────────────────────────────────╯
+*/
 
 
 .hamburger {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 30px;
-  height: 20px;
-  cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
 }
 
 
 .hamburger .line {
-  width: 100%;
-  height: 4px;
-  background-color: var(--inverse_primary);
+    width: 100%;
+    height: 4px;
+    background-color: var(--inverse_primary);
 }
 
 .menu {
@@ -205,45 +208,53 @@ span {
     display: flex;
     justify-content: center;
     background-color: var(--on_primary_fixed);
-    
+
 
     max-height: 100%;
 }
 
 
 .menu ul {
-  list-style: none;
-  padding: 20px 0;
-  margin: 0;
-  text-align: center;
+    list-style: none;
+    padding: 20px 0;
+    margin: 0;
+    text-align: center;
 }
 
 .menu ul li {
-  padding: 15px;
-  border-bottom: 1px solid #444;
+    padding: 15px;
+    border-bottom: 1px solid #444;
 }
 
 .menu ul li a {
-  color: var(--secondary);
-  text-decoration: none;
-  font-size: 18px;
-  display: block;
+    color: var(--secondary);
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    color: var(--secondary);
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
 }
 
-/*  carousel    */
+/*
+ *          ╭─────────────────────────────────────────────────────────╮
+ *          │                        carousel                         │
+ *          ╰─────────────────────────────────────────────────────────╯
+*/
 
 .carousel {
-  position: relative;
-  width: 100%;
-  max-width: 300px;
-  margin: 20px auto;
-  overflow: hidden;
-  border-radius: 10px;
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 10px;
 }
 
 .carousel-images {
-  display: flex;
-  transition: transform 0.5s ease;
+    display: flex;
+    transition: transform 0.5s ease;
 }
 
 .carousel-images img {
@@ -255,22 +266,22 @@ span {
 }
 
 .carousel-buttons button {
-  padding: 10px;
-  font-size: 24px;
-  cursor: pointer;
-  border-radius: 40%;
+    padding: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 40%;
 }
 
 .carousel-buttons button:hover {
-  background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .prev {
-  left: 10px;
+    left: 10px;
 }
 
 .next {
-  right: 10px;
+    right: 10px;
 }
 
 
